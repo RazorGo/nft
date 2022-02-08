@@ -1,3 +1,3 @@
 # nft
 
-Project is no Master branch.
+Project is on Master branch.
