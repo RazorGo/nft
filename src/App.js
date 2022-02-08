@@ -27,7 +27,7 @@ function App() {
     <Header/>
     
                     {
-                    /* CARD
+                    /* CARD layout
                     <CollectionCard 
                       id={0}
                       name={'Bandana Punk'}
