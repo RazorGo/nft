@@ -27,7 +27,7 @@ function App() {
     <Header/>
     
                     {
-                    /* 
+                    /* CARD
                     <CollectionCard 
                       id={0}
                       name={'Bandana Punk'}
