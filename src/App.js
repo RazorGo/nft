@@ -11,14 +11,13 @@ function App() {
   
 
   useEffect(()=> {
+    const url ='https://testnets-api.opensea.io/assets?asset_contract_address=0xE9d13c57D52CAd22083E284697B0D770ac4FfbDc&order_direction=asc'
     const getMynfts = async () =>{
-      const openseaData = await axios.get(
-        'https://testnets-api.opensea.io/assets?asset_contract_address=0xE9d13c57D52CAd22083E284697B0D770ac4FfbDc&order_direction=asc'
-        )
+      const openseaData = await axios.get(url);
         console.log(openseaData.data.assets)
         setPunkListData(openseaData.data.assets)
     } 
-    return getMynfts()
+    return getMynfts();
 
   },[])
   
